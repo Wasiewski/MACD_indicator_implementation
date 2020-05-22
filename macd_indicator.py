@@ -126,5 +126,5 @@ def strategy():
 
     show_credentials(macd_samples, signal_samples)
 
-
-strategy()
+if __name__ == "__main__":
+    strategy()
