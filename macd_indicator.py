@@ -6,7 +6,7 @@ import pandas as pd
 import datetime as DT
 from matplotlib import dates
 
-file_to_explore = "C://Users//oskar//OneDrive//Pulpit//Nowy folder//macd//dane.csv"
+file_to_explore = "data.csv"
 # path to your csv data
 
 df = pd.read_csv(file_to_explore)
